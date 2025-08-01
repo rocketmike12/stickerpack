@@ -1,0 +1,56 @@
+@use "../../sass/base/base.scss";
+
+.profile {
+	width: 300px;
+	padding: 20px;
+	outline: 2px solid #cba6f7;
+
+	&__description {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	&__avatar {
+		width: 150px;
+		height: 150px;
+		border-radius: 50%;
+	}
+
+	&__name {
+		font-weight: 800;
+		font-size: 20px;
+	}
+
+	&__stats {
+		padding: 0;
+		margin: 0;
+
+		display: flex;
+		justify-content: space-between;
+		gap: 15px;
+
+		&__item {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			gap: 10px;
+
+			width: 72px;
+			height: 72px;
+
+			background-color: #1f1626;
+			outline: 1px solid #cba6f7;
+		}
+
+		&__label {
+			font-weight: 400;
+			font-size: 14px;
+		}
+
+		&__quantity {
+			font-weight: 600;
+		}
+	}
+}
