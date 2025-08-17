@@ -1,3 +1,8 @@
+*:not(body) {
+	transition: 200ms;
+    transition-property: background-color;
+}
+
 :root {
 	font-family: Montserrat;
 	font-weight: 400;
@@ -17,4 +22,10 @@ body {
 
 ul {
 	list-style: none;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
 }

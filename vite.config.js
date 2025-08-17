@@ -4,5 +4,5 @@ import react from "@vitejs/plugin-react";
 // https://vitejs.dev/config/
 export default defineConfig({
 	plugins: [react()],
-	base: "/goiteens_fe5_hw03-04/"
+	base: "/stickerpack/"
 });
